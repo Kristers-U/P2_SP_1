@@ -1,0 +1,84 @@
+header{
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  position: absolute;
+  background-color: #abbaba;
+  color: #000;
+  top:0;
+  left:0;
+  z-index: 1000;
+}
+h1{
+	position:relative;
+	padding-top:60px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #C9E723;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body > *:not(footer) {
+  flex: 1;
+}
+footer {
+  text-align: center;
+  padding: 30px 0;
+  width: 100%;
+  background-color: #abbaba;
+  color: #000;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  position:static;
+  justify-content: space-around; /* Align items horizontally */
+  align-items: center;    /* Align items vertically */
+}
+
+.item {
+  background-color: lightblue;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ccc;
+}
+.itembutton{
+  margin-top:5px;
+  margin-bottom:10px;
+}
+p{
+	margin-top: 80px;
+}
+button{
+	background-color: #4CAF50; 
+	color: white; 
+	padding: 10px 20px; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer;
+}
+img{
+	padding-top:10px;
+}
+#list {
+  list-style-type: none;
+  padding-left: 0;
+  font-size:20px;
+  text-align: left;
+  background-color: #abbaba;
+  padding: 5vw;
+}
+/*Horizontal rule*/
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
