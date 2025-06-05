@@ -58,7 +58,6 @@ function myFunction() {
     list.appendChild(li);
   }
 
-  // ... add rest of items (same as before) ...
 
   const sum = Math.round((chickenWings * cwPrice + chickenDrums * cdPrice + kebab * kPrice + chickenNuggets * cnPrice + fries * fPrice + onionRings * orPrice) * 100) / 100;
   const sumPVN = Math.round((sum * 1.21) * 100) / 100;
